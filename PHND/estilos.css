@@ -1,0 +1,106 @@
+#menu{
+    width: 100%;
+    height: 50px;
+    margin-top: 0%;
+
+}
+
+#principal{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 500px;
+    background-image: url("img/dogcabecalho1.jpeg");
+    background-size: 100% 100%;
+
+}
+
+.item{
+    height:45px;
+    width: 20%;
+    float: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white; 
+    color:#161616;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.item:hover{
+    text-decoration: underline;
+}
+
+.apresentacao h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.apresentacao p{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.frase p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container-passos {
+    display: flex;
+    justify-content: center;    
+    gap: 30px;                 
+    flex-wrap: wrap;            
+    padding: 40px;
+  }
+  
+  .passo {
+    background-color: #e9b464;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .passo p{
+    font-size: 1.3em;
+  }
+  
+  
+  .ajuda h1{
+    font-size: 1.8em;
+    text-align: left;
+    font-family:serif;
+    color: dimgray;
+  }
+
+  .ajuda ul{
+    margin-top: 30px;
+    font-size: 1.3em;
+  }
+
+  .secao-ajuda {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; 
+    padding: 20px;
+  }
+  
+  .ajuda {
+    flex: 1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .imagem img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
