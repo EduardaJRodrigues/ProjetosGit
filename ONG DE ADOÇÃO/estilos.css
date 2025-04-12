@@ -104,3 +104,21 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
+
+  .row{
+    padding-top: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
