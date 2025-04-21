@@ -1,0 +1,188 @@
+@font-face {
+    font-family:"Funnel Sans";
+    src: url("fonts/Barlow-ExtraBold.ttf") 
+}
+
+#principal{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 650px;
+    font-family: "Funnel Sans";
+    padding-top: 420px;
+    padding-left: 50px;
+    background-image: url(img/imgcabecalho.png);
+    background-size: 100% 100%;
+}
+
+#cabecalho h1, h3{
+    color: white;
+}
+
+h1{
+    font-size: 3.7em;
+}
+
+#cabecalho p{
+    color: black;
+    font-size: 1.2em
+}
+
+#cabecalho button{
+    height: 50px;
+    background-color: #6bec05;
+}
+
+#cabecalho button:hover{
+    background-color: black;
+    
+}
+#cabecalho p:hover{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #cabecalho{
+     height: 300px;
+     padding-top:90px;
+    padding-left: 20px;
+    }
+    h1{
+        font-size: 3.0em;
+    }
+ }
+
+ @media (max-width: 768px){
+    .Qualidades h1{
+        font-size: 2.2em;
+    }
+ }
+
+ .Qualidades{
+    background-color: black;
+    color: white;
+    font-family: "Funnel Sans";
+    text-align: center;
+    padding-top: 10px;
+  }
+
+ .container-qualidades {
+    background-color: black;
+    display: flex;
+    justify-content: center;    
+    gap: 50px;                 
+    flex-wrap: wrap;            
+    padding: 40px;
+  }
+
+  .qualidades{
+    background-color: #6bec05;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .qualidades p{
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+
+  }
+  .container-modalidade{
+    background-color:#1b1919 
+}
+
+.container-modalidade h1{
+    font-family:"Funnel Sans" ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+  .container-modalidade img{
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .container-modalidade img:hover{
+    opacity: 0.5;
+  }
+
+  .container-modalidade p{
+    font-family: "Funnel Sans" ;
+    color: white;
+    padding-top: 10px;
+    font-size: 1.3em;
+  }
+
+  .container-modalidade p:hover{
+    color:#6bec05
+  }
+  
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.unidades{
+    background-color: #1b1919;
+    font-family:"Funnel Sans" ;
+    color: white;
+}
+
+.unidades h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.unidades h2{
+    margin-top: 30px;
+}
+
+.imagem-com-texto {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.imagem-com-texto img {
+    width: 50px; 
+    height: 50px;
+    margin-left: 250px;
+   
+}
+
+.imagem-com-texto p {
+    margin: 0; 
+    font-family: "Funnel Sans";
+    padding-left: 40px;
+    font-size: 1.2em;
+}
+
+.imagem-com-texto p:hover{
+    color: #6bec05;
+}
+
+
+.unidades button{
+    height: 50px;
+    background-color: #6bec05;
+    font-family: "Funnel Sans";
+    color: black;
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-left: 180px;
+}
