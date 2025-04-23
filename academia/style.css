@@ -62,6 +62,7 @@ h1{
     }
  }
 
+
  .Qualidades{
     background-color: black;
     color: white;
@@ -138,51 +139,155 @@ a {
 }
 
 .unidades{
-    background-color: #1b1919;
-    font-family:"Funnel Sans" ;
-    color: white;
-}
-
-.unidades h1{
-    text-align: center;
-    padding-top: 30px;
+  background-color: #1b1919;
+  color: white;
+  min-width: 320px;
 }
 
 .unidades h2{
-    margin-top: 30px;
+  font-family:"Funnel Sans" ;
+}
+
+.bloco-unidade {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; 
+  margin-top: 40px;
+}
+
+.endereco,
+.horarios {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+#titulo {
+  text-align: center;
+  font-family:"Funnel Sans" ;
+  padding-top: 30px;
 }
 
 .imagem-com-texto {
-    display: flex; 
-    align-items: center; 
-    margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 16px;
+  font-family:"Funnel Sans" ;
 }
 
 .imagem-com-texto img {
-    width: 50px; 
-    height: 50px;
-    margin-left: 250px;
-   
+  width: 50px;
+  height: auto;
 }
 
-.imagem-com-texto p {
-    margin: 0; 
-    font-family: "Funnel Sans";
-    padding-left: 40px;
-    font-size: 1.2em;
+.unidades button{
+  background-color: #6bec05;
+  color: black;
+  font-family: "Funnel Sans";
+}
+
+.endereco{
+  padding-left: 130px;
+}
+
+.horarios{
+  padding-left: 130px;
+}
+
+@media (max-width: 667px){
+  .endereco{
+    min-width:320px ;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .horarios{
+    min-width: 320px;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+
+}
+
+
+@media (max-width: 412px){
+  .endereco{
+    min-width:320px ;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .horarios{
+    min-width: 320px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .imagem-com-texto{
+    padding-right: 120px;
+  }
+
+} 
+
+@media (max-width: 388px){
+  .imagem-com-texto img{
+    display: none;
+  }
+  
+  .imagem-com-texto p{
+    padding-left: 30px;
+  }
+
 }
 
 .imagem-com-texto p:hover{
-    color: #6bec05;
+  color: #6bec05;
 }
 
+.planos{
+  background-color: black;
+}
 
-.unidades button{
-    height: 50px;
-    background-color: #6bec05;
-    font-family: "Funnel Sans";
-    color: black;
-    font-size: 1.2em;
-    margin-top: 40px;
-    margin-left: 180px;
+.container-planos{
+    background-color: black;
+    display: flex;
+    justify-content: center;    
+    gap: 50px;                 
+    flex-wrap: wrap;            
+    padding: 20px 0;
+}
+
+.planos h1{
+  text-align: center;
+  font-family: "Funnel Sans" ;
+  padding-top: 30px;
+  color: white;
+}
+
+.plano{
+  background-color: #f9f9f9; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 280px; 
+  max-width: 20%; 
+}
+
+.plano h2{
+  font-family: "Funnel Sans";
+  color: black;
+  padding-bottom: 10px;
+}
+
+.plano p{
+  color: black;
+}
+
+.plano button{
+  background-color: #6bec05;
+  color: black;
+  font-family: "Funnel Sans";
+  display: block;
+  margin: auto;
 }
