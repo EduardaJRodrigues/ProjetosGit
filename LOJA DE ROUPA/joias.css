@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+}
+
+.list-group {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    width:150px ;
+}
+    
+
+.list-group-item{
+    background-color:burlywood;
+    color: white;
+}
+
+
+
+.card{
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+.img-thumbnail h2{
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.img-thumbnail p{
+    font-size: 1.3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
