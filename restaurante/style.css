@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#principal{
+    width: 100%;
+    height: 100%;
+    background-color:#d4d1cf ;
+}
+
+nav{
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    color: black
+}
+
+.navbar-nav {
+    gap: 80px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.section{
+    width: 100%;
+}
+
+.imagens{
+    background-color: white;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 40px;
+    width: 999px;
+    margin: auto;
+    flex-wrap: wrap;
+    font-family:"Montserrat", sans-serif;
+    font-weight: Bold;
+}
+
+.imagens img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.imagens button {
+    width: 400px; 
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #916557;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+button:hover{
+  background-color: gray !important; 
+ 
+}
+
+
+main img{
+    height: auto;
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    width: 999px;
+    height: auto;
+    margin: auto;
+}
+
+.texto-container h1{
+    text-align: center;
+    background-color: white;
+    width: 999px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+}
+
+.conteudo img{
+    margin-right: 20px;
+}
+
+.Enderecos h1{
+    text-align: center;
+    background-color: white;
+    width: 999px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.container-enderecos{
+    background-color: white;
+    margin: auto;
+    width: 999px;
+    display: flex;
+    justify-content: center;    
+    gap: 50px;                 
+    flex-wrap: wrap;            
+    padding: 40px;
+
+}
+
+.endereco{
+    font-family:"Montserrat", sans-serif ;
+    text-align: center;
+    box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.endereco h4{
+    font-size: 1.2em;
+}
+
+.rodape{
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;    
+    gap: 50px;                 
+    flex-wrap: wrap;            
+    padding: 40px;
+    margin-top: 20px;
+    gap: 90px;
+}
+
+.rodape h3{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.rodape p{
+    font-family:"Montserrat", sans-serif ;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.icones-redes {
+    display: flex;
+    gap: 10px; 
+}
+
+.icones-redes img {
+    width: 50px; 
+    height: auto;
+}
+
+.rodape img:hover{
+    width: 53px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.informacoes li:hover{
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-nav{
+        gap:10px;
+    }
+}
+
+@media (max-width: 694px) {
+    .imagens button {
+        width: 500px; 
+    }
+}
+
+@media (max-width: 523px) {
+    .imagens button {
+        width: 400px; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .imagens button {
+        width: 300px; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .imagens button {
+        width: 200px; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 923px) {
+    .texto-container .conteudo {
+      flex-direction: column; 
+    }
+
+    .texto-container .textos {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    
+    .texto-container .conteudo img {
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 851px) {
+    .rodape{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 514px) {
+    .redes{
+        margin-right: 50px;
+    }
+
+    .informacoes{
+        margin-right: 30px;
+    }
+}
