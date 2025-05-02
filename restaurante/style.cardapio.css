@@ -32,86 +32,92 @@ main h1{
     color: #362a1c;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-main h3{
-    font-family:"Montserrat", sans-serif ;
-    font-weight: 700;
-    text-align: center; 
-    background-color:#916557 ;
-    color: white;
-    width: 200px;
-    height: auto;
+.container-menu{
+   gap: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+.container-menu img{
+    height: 340px;
+    width: 700px;
     margin: auto;
-    border-radius: 20px;
-    margin-top: 4%;
+    display: block;
 }
+ .img-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .img-wrapper img {
+    display: block;
+  }
+  
+  .texto-sobre-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0; /* escondido inicialmente */
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* evita interferência no hover */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+  }
 
-.container-cardapio img{
-    width: 300px;
-    height: auto;
-    border-radius: 20px;
-}
-
-.sessao-comida{
-   padding-top: 50px;
-   width: 899px;
-   margin: auto;
-}
-
-.sessao-comida h2{
+  .texto-sobre-img p{
     font-family:"Montserrat", sans-serif ;
     font-weight: 700;
-}
+    font-size: 1.5em;
+  }
+  
+  .img-wrapper:hover .texto-sobre-img {
+    opacity: 1; /* aparece no hover */
+  }
 
-.sessao-comida p{
-    font-family:"Montserrat", sans-serif ;
-    font-weight: 300;
-    color: black;
-}
-
-@media (max-width: 930px) {
-    .container-cardapio img{
-       margin-left: 30px;
+  @media (max-width: 750px) {
+    .img-wrapper img {
+      height: 280px;
+      width: 500px;
     }
-}
-
-@media (max-width: 767px) {
-    .container-cardapio img {
-      display: block;
-      margin: auto;
+    .texto-sobre-img{
+      line-height: 250px;
     }
   }
 
-  @media (max-width: 767px) {
-    .sessao-comida p, h2{
-       text-align: center;
+  @media (max-width: 583px) {
+    .img-wrapper img {
+      height: 220px;
+      width: 400px;
+    }
+    .texto-sobre-img{
+      line-height: 200px;
     }
   }
 
-  @media (max-width: 767px) {
-    .sessao-comida h2{
-       margin-top: 30px;
+  @media (max-width: 500px) {
+    .img-wrapper img {
+      height: 160px;
+      width: 300px;
+    }
+    .texto-sobre-img{
+      line-height: 140px;
+      font-size: 1.0em;
     }
   }
 
-  @media (max-width: 767px) {
-    .sessao-comida p{
-       margin-left: 15px;
-       margin-right: 15px;
-    }
-  }
-
-  @media (max-width: 767px) {
-    .row{
-        margin-right: 0 !important;
-    }
-    .row > [class*="col-"] {
-        padding-right: 0 !important;
-      }
-  }
-  @media (max-width: 991px) {
-    .navbar-nav{
-        gap:10px;
-    }
-}
