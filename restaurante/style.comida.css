@@ -25,6 +25,7 @@ main{
     width: 999px;
     background-color: white;
     margin: auto;
+    padding-bottom: 20px;
 }
 main h1{
     font-family:"Montserrat", sans-serif ;
@@ -70,6 +71,58 @@ main h3{
     color: black;
 }
 
+
+.rodape{
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;    
+    gap: 50px;                 
+    flex-wrap: wrap;            
+    padding: 40px;
+    margin-top: 20px;
+    gap: 90px;
+}
+
+.rodape h3{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.rodape p{
+    font-family:"Montserrat", sans-serif ;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.icones-redes {
+    display: flex;
+    gap: 10px; 
+}
+
+.icones-redes img {
+    width: 50px; 
+    height: auto;
+}
+
+.rodape img:hover{
+    width: 53px;
+    height: auto;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.informacoes li:hover{
+    text-decoration: underline;
+}
+
 @media (max-width: 930px) {
     .container-cardapio img{
        margin-left: 30px;
@@ -113,5 +166,21 @@ main h3{
   @media (max-width: 991px) {
     .navbar-nav{
         gap:10px;
+    }
+}
+
+@media (max-width: 851px) {
+    .rodape{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 514px) {
+    .redes{
+        margin-right: 50px;
+    }
+
+    .informacoes{
+        margin-right: 30px;
     }
 }

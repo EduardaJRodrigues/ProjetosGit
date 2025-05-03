@@ -173,3 +173,25 @@ main h1{
     }
   }
 
+  @media (max-width: 991px) {
+    .navbar-nav{
+        gap:10px;
+    }
+}
+
+@media (max-width: 851px) {
+  .rodape{
+      gap: 30px;
+  }
+}
+
+@media (max-width: 514px) {
+  .redes{
+      margin-right: 50px;
+  }
+
+  .informacoes{
+      margin-right: 30px;
+  }
+}
+
