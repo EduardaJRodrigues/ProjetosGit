@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#principal{
+    width: 100%;
+    height: 100%;
+    background-color:#d4d1cf ;
+}
+
+nav{
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    color: black
+}
+
+.navbar-nav {
+    gap: 80px;
+}
+
+main{
+    width: 999px;
+    background-color: white;
+    margin: auto;
+}
+main h1{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 800;
+    color: #362a1c;
+    text-align: center;
+    padding-top: 40px;
+}
+
+main h3{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    text-align: center; 
+    background-color:#916557 ;
+    color: white;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-bottom: 40px;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.row > [class*="col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+.sessao-bebida img{
+    width: 300px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}  
+
+.sessao-bebida p{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo{
+    font-size: 1.2em;
+    font-family:"Montserrat", sans-serif ;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+@media (max-width: 990px) {
+    .sessao-bebida img{
+        width: 250px;
+        height: 190px;
+    }  
+}
+
+@media (max-width: 850px) {
+    .row {
+        flex-direction: column;
+        align-items: center; /* garante centralização no modo coluna */
+      }
+      
+}
+
