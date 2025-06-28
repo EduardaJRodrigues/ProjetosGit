@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.reserv.css" />
+    <title>Villa Sabor</title>
+  </head>
+  <body>
+    <div id="principal">
+      <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav d-flex">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Sobre Nós</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Endereços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.cardápio.html">Cardápio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Contato
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Instagram</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Facebook</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">WhatsApp</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+
+      <header>
+    <h1>Reserva de Mesa</h1>
+    <p>Restaurante Villa Sabor</p>
+  </header>
+
+  <div class="container">
+    <form id="form-reserva" novalidate>
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="data">Data da reserva</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="hora">Horário</label>
+      <input type="time" id="hora" name="hora" required>
+
+      <label for="pessoas">Número de pessoas</label>
+      <select id="pessoas" name="pessoas" required>
+        <option value="">Selecione</option>
+        <option value="1">1 pessoa</option>
+        <option value="2">2 pessoas</option>
+        <option value="3">3 pessoas</option>
+        <option value="4">4 pessoas</option>
+        <option value="5">5 pessoas</option>
+        <option value="6+">6 ou mais</option>
+      </select>
+
+      <label for="mensagem">Observações</label>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Ex: cadeira de rodas, aniversário, etc."></textarea>
+
+      <button type="submit">Confirmar Reserva</button>
+    </form>
+  </div>
+
+
+      <footer>
+        <div class="rodape">
+          <div class="informacoes">
+            <h3>Informações</h3>
+            <ul>
+              <a href="#"><li>Trocas e devoluções</li></a>
+              <a href="#"><li>Políticas e privacidade</li></a>
+              <a href="#"><li>Trabalhe conosco</li></a>
+              <a href="#"><li>Contato</li></a>
+            </ul>
+          </div>
+
+          <div class="contatos">
+            <h3>Contatos</h3>
+            <p><strong>Porto Alegre</strong> - 55 5555 5555</p>
+            <p><strong>Gravataí</strong> - 55 5555 5555</p>
+            <p><strong>Cachoerinha</strong> - 55 5555 5555</p>
+          </div>
+
+          <div class="redes">
+            <h3>Redes</h3>
+            <div class="icones-redes">
+              <a href="#"><img src="img/instagram.png" alt="" /></a>
+              <a href="#"><img src="img/facebook.png" alt="" /></a>
+              <a href="#"><img src="img/youtube.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>

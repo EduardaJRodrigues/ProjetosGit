@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#principal{
+    width: 100%;
+    height: 100%;
+    background-color:#d4d1cf ;
+}
+
+nav{
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    color: black
+}
+
+.navbar-nav {
+    gap: 80px;
+}
+
+
+.rodape{
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;    
+    gap: 50px;                 
+    flex-wrap: wrap;            
+    padding: 40px;
+    margin-top: 20px;
+    gap: 90px;
+}
+
+.rodape h3{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.rodape p{
+    font-family:"Montserrat", sans-serif ;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.icones-redes {
+    display: flex;
+    gap: 10px; 
+}
+
+.icones-redes img {
+    width: 50px; 
+    height: auto;
+}
+
+.rodape img:hover{
+    width: 53px;
+    height: auto;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.informacoes li:hover{
+    text-decoration: underline;
+}
+
+
+
+
+header {
+      background-color:#916557;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-family:"Montserrat", sans-serif ;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 25px;
+      background-color: #916557;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #916557;
+    }
+
+
+
+@media (max-width: 990px) {
+    .sessao-bebida img{
+        width: 250px;
+        height: 190px;
+    }  
+}
+
+@media (max-width: 850px) {
+    .row {
+        flex-direction: column;
+        align-items: center; 
+      }
+      
+}
+
+@media (max-width: 991px) {
+    .navbar-nav{
+        gap:10px;
+    }
+}
+
+@media (max-width: 851px) {
+    .rodape{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 514px) {
+    .redes{
+        margin-right: 50px;
+    }
+
+    .informacoes{
+        margin-right: 30px;
+    }
+}
+
