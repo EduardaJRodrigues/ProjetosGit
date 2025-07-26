@@ -10,6 +10,10 @@
     height: 100%;
 }
 
+header img{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.199);
+}
+
 
 .navbar {
   position: fixed;
@@ -39,7 +43,7 @@ header img{
 main {
     width: 100%;
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 15vh;
     
 }
 
@@ -124,12 +128,7 @@ section{
   flex-grow: 1;
   font-size: 14px;
   margin-bottom: 1rem;
-}
-
-.price {
-  font-weight: bold;
-  color: #444;
-  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .btn {
@@ -142,3 +141,27 @@ section{
   cursor: pointer;
   align-self: center;
 }
+
+@media (max-width: 640px) {
+    main h3{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main h4{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    main h3{
+        font-size: 1.2em;
+    }
+
+    main h4{
+        font-size: 1.1em;
+    }
+}
+
