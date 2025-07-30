@@ -43,7 +43,6 @@ header img{
 main {
     width: 100%;
     text-align: center;
-    margin-top: 15vh;
     
 }
 
@@ -140,6 +139,51 @@ section{
   font-weight: 500;
   cursor: pointer;
   align-self: center;
+}
+
+.bloco-contagem {
+  text-align: center;
+  padding-bottom:10vh;
+  padding-top: 10vh;
+  background-color:transparent ; /* use a cor de fundo da seção */
+}
+
+.titulo-contagem {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: #ac7c63; /* ou a cor do seu tema */
+  font-weight:700;
+  margin-bottom: 30px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.timer div {
+  background-color: #fff;
+  color: #875b4b; /* marrom puxado para o tom da imagem */
+  padding: 15px 20px;
+  border-radius: 8px;
+  min-width: 70px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.178);
+}
+
+.timer span {
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+}
+
+.timer p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 640px) {
