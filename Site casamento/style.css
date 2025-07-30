@@ -50,14 +50,14 @@ main h3{
     font-family:"Montserrat", sans-serif;
     font-weight: bold;
     color: #ac7c63;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
 }
 
 main h4{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color:#333333;
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     font-size: 1.3em;
 }
 
@@ -67,7 +67,7 @@ main p{
     color:#333333;
     margin-right: 20px;
     margin-left: 20px;
-    margin-bottom: 15vh;
+    margin-bottom: 8vh;
 }
 
 main button{
